@@ -8,7 +8,7 @@ st.subheader(f"Breakfast Menu")
 st.markdown("""
 Omega 3 & Blueberry Oatmeal
 
-nKale, Spinach & Rocket Smoothie
+Kale, Spinach & Rocket Smoothie
 
 Hard-Boiled Free-Range Egg""")
 
