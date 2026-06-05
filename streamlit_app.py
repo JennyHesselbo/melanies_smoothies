@@ -1,12 +1,13 @@
 # Import python packages
 import streamlit as st
-streamlit.title('My Parents New Healthy Diner')
+from snowflake.snowpark.functions import col
+
+# Write directly to the app
+st.title(f":cup_with_straw: Customize Your Smoothie! :cup_with_straw: ")
 st.write(
-    """CBreakfast Menu
-    Omega 3 & Blueberry Oatmeal
-    Kale, Spinach & Rocket Smoothie
-    Hard-Boiled Free-Range Egg
+    """Choose the fruits you want in your custom Smoothie!
     """)
+
 
 name_on_order = st.text_input("Name on Smoothie:")
 st.write("The name on your Smoothie will be:", name_on_order)
