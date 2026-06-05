@@ -5,11 +5,7 @@ from snowflake.snowpark.functions import col
 # Write directly to the app
 st.title(f"My Parents New Healthy Diner")
 st.subheader(f"Breakfast Menu")
-st.write(
-    """Omega 3 & Blueberry Oatmeal
-    Kale, Spinach & Rocket Smoothie
-    Hard-Boiled Free-Range Egg
-    """)
+st.markdown("Omega 3 & Blueberry Oatmeal\n\nKale, Spinach & Rocket Smoothie\n\Hard-Boiled Free-Range Egg")
 
 
 name_on_order = st.text_input("Name on Smoothie:")
